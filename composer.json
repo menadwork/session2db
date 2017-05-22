@@ -29,9 +29,19 @@
       "role": "Developer"
     }
   ],
+  "repositories": {
+    "portable-utf8": {
+      "type": "vcs",
+      "url": "https://github.com/menadwork/portable-utf8"
+    },
+    "simple-mysqli": {
+      "type": "vcs",
+      "url": "https://github.com/menadwork/simple-mysqli"
+    }
+  },
   "require": {
-    "voku/simple-mysqli": "~4.4",
-    "voku/portable-utf8": "~3.1",
+    "simple-mysqli": "~4.4",
+    "portable-utf8": "~3.1",
     "php": ">=5.3.0"
   },
   "require-dev": {
